@@ -1,0 +1,3 @@
+Pizza:flour, oil, tomato, corn, cheese:Make the dough and bake it with toppings:60
+Veg maggi:maggi, peas, tomato, oil:Boil maggi. Add vegatables and stir:10
+chana masala:chickpeas, tomatoes, onions, spices, water:Boil chickpeas. Add vegetables and spices and stir fry:30
