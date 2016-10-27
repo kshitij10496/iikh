@@ -1,0 +1,7 @@
+Idli,,Water:1, Turmeric:5, Yeast:5, Coconut:1, Rice:100, ,,,,60,,2
+Dosa,,dvcnk sd:2, svnkds:8, nsk:10, sfvnmk:5, sfvdjnk:4, ,,,,30,,10
+palak paneer,,Peas:50, Spices:10, Spinach:100, paneer:50, Tomato:100, ,,Cut tomatoes.sdvnkscvnd.sdfvnk,,30,,2
+Paneer Tikka,,Panner:100, Onions:50, Spices:10, Chilli:10, Tomatoes:100, ,,Cut tomatoes and onions. Add diced paneer ,,30,,2
+cvsgf,,dsfs:8, sdf:5, vwefr:45, sadgfes:2, cvsd:21, ,,sdgreyhgrtg,,23,,2
+sdvgfver,,sdfvsa:54, sfdgvds:1, werw:32, vdxc:324, dvsa:2, ,,sdfgvbdsg,,4,,5
+dfsadfv,,waerfe:10, fbfds:5, vsdfgvsdf:1, sdfve:2, fdbvdf:15, ,,fdgbfdghregtf,,3,,2
