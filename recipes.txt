@@ -1,0 +1,8 @@
+Idli,,Water:1, Turmeric:5, Yeast:5, Coconut:1, Rice:100, ,,,,60,,2
+Dosa,,dvcnk sd:2, svnkds:8, nsk:10, sfvnmk:5, sfvdjnk:4, ,,,,30,,10
+palak paneer,,Peas:50, Spices:10, Spinach:100, paneer:50, Tomato:100, ,,Cut tomatoes.sdvnkscvnd.sdfvnk,,30,,2
+Paneer Tikka,,Panner:100, Onions:50, Spices:10, Chilli:10, Tomatoes:100, ,,Cut tomatoes and onions. Add diced paneer ,,30,,2
+Hakka Noodles,,Salt:5, Beans:10, Onions:2, Chillies:5, Noodles:200, ,,Boil noodles. Dice up vegetables. Add vegetables to noodles and fry,,30,,2
+Dosa,,dvcnk sd:2, svnkds:8, nsk:10, sfvnmk:5, sfvdjnk:4, ,,xzsdffger,,30,,2
+Palak Paneer,,Peas:50, Spices:10, Spinach:100, paneer:50, Tomato:100, ,,Cut tomatoes.,,30,,2
+Idlidfgggdb,,Water:1, Turmeric:5, Yeast:5, Coconut:1, Rice:100, ,,vbdfrgegrfbr,,60,,2
