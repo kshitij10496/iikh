@@ -206,7 +206,7 @@ public class Recipe {
         nameColumn.setMinWidth(100);
         nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
         
-        TableColumn<Recipe, ArrayList<String>> ingredientNamesColumn = new TableColumn<>("Ingredients");
+        TableColumn<Recipe, String> ingredientNamesColumn = new TableColumn<>("Ingredients");
         ingredientNamesColumn.setMinWidth(200);
         ingredientNamesColumn.setCellValueFactory(new PropertyValueFactory<>("ingredientNames"));
         
@@ -351,5 +351,9 @@ public class Recipe {
 
     public int ingsQuantity(int i) {
         return this.ingredientQuantities.get(i);
+    }
+    
+    public String getIngredientNames(){
+        return String.join(", ", this.ingredientNames);       
     }
 }
