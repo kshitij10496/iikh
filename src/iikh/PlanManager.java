@@ -94,7 +94,30 @@ public class PlanManager {
             Button okay = (Button)button1;
             Button cancel = (Button)confirmation.getChildren().get(1);
             okay.setOnAction(e -> {
-                ArrayList<Meal> orderedMeals = checkOptions(timings);
+                ArrayList<Meal> orderedMeals = new ArrayList<>();
+                
+                for (int i=0; i < 4; i++){
+                    HBox container = (HBox)(timings.getChildren()).get(i);
+                    CheckBox timing = (CheckBox) (container.getChildren()).get(0);
+                    ChoiceBox choice = (ChoiceBox) (container.getChildren()).get(1);
+            
+                    Meal newMeal = new Meal();
+                
+                    if (timing.isSelected()) {
+                        if (choice.getValue() == "New Meal")
+                            newMeal.createMeal(timing.getText());
+                        else
+                            newMeal = (Meal)(choice.getValue());
+                    }
+            
+                    else
+                        System.out.println("No Meal for " + timing.getText());
+        
+                    orderedMeals.add(newMeal);
+                }
+        
+                System.out.println("Prepared the Meal Plan !");
+                
                 PlanManager newPlan = new PlanManager(dP.toString(), orderedMeals);
                 newPlan.addToPlanDB();
                         });

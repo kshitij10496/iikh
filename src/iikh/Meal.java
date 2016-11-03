@@ -107,7 +107,7 @@ public class Meal {
     }
 
     void createMeal(String text) {
-        window = new Stage();
+        Stage window = new Stage();
         BorderPane layout = new BorderPane();
         HBox header = titleGenerator("Add a meal for " + text);
         layout.setTop(header);
@@ -134,6 +134,8 @@ public class Meal {
                 
                 Meal newMeal = new Meal(nM, recipes);
                 newMeal.addToMealDB();
+                System.out.println("Meal has been created");
+                window.close();
             });
             cancel.setOnAction(e -> window.close());            
         }
@@ -147,9 +149,8 @@ public class Meal {
         layout.setCenter(content);
         
         Scene addrecipe = new Scene(layout, 600, 600);
-        window.setTitle("Add a new recipe");
-        window.setScene(addrecipe);
-        window.show();
+        window.setScene( addrecipe);
+        window.showAndWait();
 }
     
     
@@ -181,14 +182,15 @@ public class Meal {
             if (timing.isSelected()) {
                 System.out.println("Choosing Recipe");
         
-               if (choice.getValue() == "New Recipe"){
+               String chosenRecipe =  String.valueOf(choice.getValue());
+               if ("New Recipe".equals(chosenRecipe)){
                     System.out.println("Creating new Recipe");
-        
-                    Recipe.createRecipe();}
+                    Recipe.createRecipe();
+               }
                else{
                     System.out.println("Adding old recipe");
         
-                    newRecipe = (Recipe)(choice.getValue());
+                    newRecipe = DatabaseManager.getRecipeFromDB(chosenRecipe);
                }
         
                 DatabaseManager.addRecipeToDB(newRecipe);

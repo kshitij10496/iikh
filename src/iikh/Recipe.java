@@ -59,7 +59,7 @@ public class Recipe {
     }
     
     public Recipe(String n) {
-        this(n, getAllIngredientsName(n), getAllIngredientsQuantity(n), getMethodFromDB(n), getTimeFromDB(n), getServingsFromDB(n));
+        DatabaseManager.getRecipeFromDB(n);
     }
 
     public Recipe() {
